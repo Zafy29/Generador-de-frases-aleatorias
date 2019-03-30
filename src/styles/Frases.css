@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+:root {
+  --color-tweet: #4ea699;
+  --color-text: #140d4f;
+}
+#quote-box {
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 1.5em;
+  color: black;
+  font-family: "Raleway";
+  max-width: 30em;
+  overflow: hidden;
+  height: auto;
+  -webkit-box-shadow: 0px 10px 33px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 33px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 33px -5px rgba(0, 0, 0, 0.75);
+}
+
+#text {
+  text-align: justify;
+  font-size: 1.4em;
+  word-wrap: break-word;
+}
+
+#text i {
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+#author {
+  margin-top: 0.5em;
+  margin-left: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+#new-quote button {
+  outline: none;
+  border: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0.2em;
+  font-weight: bold;
+  font-family: "Raleway";
+  float: left;
+  cursor: pointer;
+  font-size: inherit;
+  background-color: var(--color-text);
+  color: white;
+  transition: 0.3s;
+}
+
+#new-quote button:hover {
+  background-color: white;
+  color: var(--color-text);
+  box-shadow: inset 0px 0px 0px 2px var(--color-text);
+}
+
+#tweet-quote {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: var(--color-tweet);
+  border-radius: 0.2em;
+  float: right;
+  font-weight: bold;
+  max-width: 1em;
+  overflow: hidden;
+  transition: max-width 1s linear;
+  -webkit-transition: max-width 1s linear;
+  -moz-transition: max-width 1s linear;
+  white-space: nowrap;
+}
+
+#tweet-quote:hover {
+  background-color: white;
+  color: var(--color-tweet);
+  box-shadow: inset 0px 0px 0px 2px var(--color-tweet);
+  max-width: 100%;
+}
+#tweet-quote:hover::after {
+  content: "Twittear";
+  margin-left: 0.5em;
+}
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  #quote-box {
+    min-width: 90%;
+  }
+}
