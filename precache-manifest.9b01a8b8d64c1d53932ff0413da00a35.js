@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Generador-de-frases-aleatorias/static/css/main.e19110fd.chunk.css"
   },
   {
-    "revision": "8cbe69a59eaa8533d3d59de14690678e",
+    "revision": "623572a014450cb53295ebf80831386d",
     "url": "/Generador-de-frases-aleatorias/index.html"
   }
 ];
