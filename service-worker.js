@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Belquira/Generador-de-frases-aleatorias.git/precache-manifest.b74816930e9406864f43e017a42b2d9f.js"
+  "/Generador-de-frases-aleatorias/precache-manifest.5121163937702170068ce9197bd61ca4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Belquira/Generador-de-frases-aleatorias.git/index.html", {
+workbox.routing.registerNavigationRoute("/Generador-de-frases-aleatorias/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
