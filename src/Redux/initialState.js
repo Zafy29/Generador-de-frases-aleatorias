@@ -51,7 +51,7 @@ const quotes = [
   },
   {
     quote:
-      "Felicidad no es hacer lo que uno quiere sino querer lo que uno hace.",
+      "Felicidad no es hacer lo que uno quiere sino querer lo que uno hace",
     author: "Jean Paul Sartre"
   },
   {
@@ -61,7 +61,7 @@ const quotes = [
   },
   {
     quote:
-      "No hay medicina que cure lo que no cura la felicidad.",
+      "No hay medicina que cure lo que no cura la felicidad",
     author: "Gabriel García Márquez"
   },
   {
@@ -71,7 +71,7 @@ const quotes = [
   },
   {
     quote:
-      "Escribir es fácil. Lo único que tienes que hacer es cruzar las palabras erróneas.-Mark Twain",
+      "Escribir es fácil. Lo único que tienes que hacer es cruzar las palabras erróneas",
     author: "Mark Twain"
   },
   {
