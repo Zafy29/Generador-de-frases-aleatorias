@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Generador-de-frases-aleatorias/precache-manifest.9b01a8b8d64c1d53932ff0413da00a35.js"
+  "/Generador-de-frases-aleatorias/precache-manifest.5c16c4a9a398e025c101eb367709d091.js"
 );
 
 workbox.clientsClaim();
